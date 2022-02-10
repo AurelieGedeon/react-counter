@@ -8,9 +8,9 @@ function App() {
       <header className="App-header">
         <h1>Counter: {counter}</h1>
         <div class="button-container">
-          <button onClick={() => setCounter(counter + 1)}> + </button>
-          <button onClick={() => setCounter(counter - 1)}> - </button>
           <button onClick={() => setCounter(0)}> RESET</button>
+          <button onClick={() => setCounter(counter - 1)}> - </button>
+          <button onClick={() => setCounter(counter + 1)}> + </button>
         </div>
       </header>
     </div>
